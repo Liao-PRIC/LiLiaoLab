@@ -1,21 +1,21 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-4-1
 type: landing
 
 sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Li Liao
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **LiLiao Lab** is interested in various aspects of microorganisms living in Antarctic and the Arctic regions: including bacterial sRNAs and their regulation, microbial diversity and survival in extreme environments (e.g., in subglacial lakes, sea ice, sea water), as well as innovation of microbial cultivation and microbial resource exploration.
   
   - block: collection
     content:
