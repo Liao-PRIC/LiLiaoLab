@@ -25,7 +25,7 @@ sections:
       directions: Floor 5
       office_hours:
         - 'Monday-Friday 10:00 to 17:00'
-      appointment_url: 'https://calendly.com'
+#      appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -45,6 +45,7 @@ sections:
           captcha: false
     design:
       columns: '1'
+---
 
   - block: markdown
     content:

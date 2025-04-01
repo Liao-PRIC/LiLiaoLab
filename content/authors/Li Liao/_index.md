@@ -45,7 +45,8 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:liaoli@pric.org.cn'
-    icon_pack: researchgate
+  - icon: researchgate
+    icon_pack: ai
     link: https://www.researchgate.net/profile/Li-Liao-17
 
 # Link to a PDF of your resume/CV from the About widget.
