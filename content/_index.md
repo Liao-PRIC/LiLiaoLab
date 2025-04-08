@@ -11,7 +11,7 @@ sections:
         Li Liao
         Research Group
       image:
-        filename: images/cover.jpg
+        filename: /workspaces/LiLiaoLab/images/cover.jpg
       text: |
         <br>
         
