@@ -25,17 +25,24 @@ with open(md_path, 'w') as md_file:
     md_file.write('\n')
     md_file.write('#author_notes:'+'\n'+'#- "Equal contribution"'+'\n'*2) #add equal contribution if needed
     notes = bib_text['note'].split('. ')
-    pubdate = [i for i in notes if bib_text['pages'] in i]
+    page_tag = ':'+bib_text['pages']
+    pubdate = [i for i in notes if page_tag in i]
     pubdate = pubdate[0].split(';')[0]
-    pubdate = datetime.strptime(pubdate, '%Y %b')    
+    pubdate = pubdate.split(' ')
+    if len(pubdate)==2:
+        pubdate.append('01')
+    elif len(pubdate)<2 or len(pubdate)>3:
+        print('provided date is wrong!')
+    pubdate = ' '.join(pubdate)
+    pubdate = datetime.strptime(pubdate, '%Y %b %d')
     formatted_pubdate = pubdate.strftime('%Y-%m-%dT%H:%M:%SZ') 
-    md_file.write('data: "'+formatted_pubdate+'"'+'\n'*2)#add publication published date
+    #md_file.write('data: "'+formatted_pubdate+'"'+'\n'*2)#add publication published date
     md_file.write('doi: "'+bib_text['doi']+'"'+'\n'*2)#add doi
-    md_publishdata = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.localtime())#add md file publish date
-    md_file.write('publishDate: "'+md_publishdata+'"'+'\n'*2)
+    #md_publishdata = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.localtime())#add md file publish date
+    md_file.write('publishDate: "'+formatted_pubdate+'"'+'\n'*2)
     md_file.write('publication_types: ["'+bib_text['type']+'"]'+'\n'*2)#add publication type
     md_file.write('publication: "'+bib_text['journal']+'"'+'\n'*2)#add journal name
-    md_file.write('abstract: '+bib_text['abstract']+'\n'*2)#add abstract
+    md_file.write('abstract: "'+bib_text['abstract']+'"'+'\n'*2)#add abstract
     md_file.write('featured: false'+'\n'*2)
     md_file.write('#url_pdf: http://arxiv.org/pdf/1512.04133v1'+'\n'+'#url_code: https://github.com/HugoBlox/hugo-blox-builder'+'\n')#add any url if needed: url_name
     md_file.write('\n')

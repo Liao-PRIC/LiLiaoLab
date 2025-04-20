@@ -1,28 +1,26 @@
 ---
-title: "Multipartite genomes and the sRNome in response to temperature stress of an Arctic Pseudoalteromonas fuliginea BSW20308"
+title: "Dynamic and intricate regulation by the Csr sRNAs in the Arctic Pseudoalteromonas fuliginea"
 
 authors:
-- Liao, L.
-- Liu, C.
-- Zeng, Y.
-- Zhao, B.
-- Zhang, J.
-- Chen, B.
+- <strong>Duan, Zedong</strong>
+- Liao, Li
+- Lai, Tingyi
+- Yang, Ruyi
+- Zhang, Jin
+- Chen, Bo
 
 #author_notes:
 #- "Equal contribution"
 
-data: "2019-01-01T00:00:00Z"
+doi: "10.1038/s42003-025-07780-y"
 
-doi: "10.1111/1462-2920.14455"
-
-publishDate: "2025-04-20T01:45:57Z"
+publishDate: "2025-03-22T00:00:00Z"
 
 publication_types: ["Journal Article"]
 
-publication: "Environ Microbiol"
+publication: "Communications Biology"
 
-abstract: "Little is known about the survival and effect of rapid climate warming on Pseudoalteromonas in the Arctic, although it is abundant and important in this ecosystem. Here, we investigated a cold-adapted Pseudoalteromonas fuliginea BSW20308 from the Arctic Ocean, from the genome to its transcriptomic responses towards temperature changes. It contained two circular chromosomes, with the second chromosome probably evolved from an ancestral plasmid. The evolution of multipartite genomes may be advantageous for its survival under changing environments. RNA-seq analysis revealed the extensive involvement of sRNome in response to temperature stress for the first time, especially tmRNA and a novel Pf1 sRNA strongly induced under heat stress. The present study makes significant contributions towards the understanding of Pseudoalteromonas in two aspects: the genome structure and evolution of its two chromosomes, and the important discovery of the sRNome in response to temperature stress."
+abstract: "The Csr (Carbon Storage Regulator) system is pivotal in controlling various cellular functions in most bacteria, primarily through the CsrA protein and its antagonistic sRNAs. However, riboregulatory networks are less explored in non-model organisms, particularly those in extreme environments. In this study, we discovered two new sRNAs of the Csr system, Pf2 and Pf3, in the Arctic bacterium Pseudoalteromonas fuliginea BSW20308, along with the previously known Pf1. By studying the impact of these Pf sRNAs on CsrA targetomes and physiological processes, we found a significant influence on various cellular functions and a collective effect on the interaction dynamics between CsrA and RNAs. Furthermore, we identified additional sRNAs that can interact with CsrA and mRNAs. Overall, our results emphasize the growing influence of the Csr system on cellular physiology through intricate sRNA regulation of CsrA, revealing riboregulatory network complexity and significance in non-model organisms."
 
 featured: false
 
