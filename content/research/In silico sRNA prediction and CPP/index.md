@@ -1,5 +1,5 @@
 ---
-title: Cell-Penetrating Peptides Delivery of Synthetic Regulatory sRNA to Arctic *Pseudoalteromonas fuliginea*.
+title: Cell-Penetrating Peptides Delivery of Synthetic Regulatory sRNA to Arctic Pseudoalteromonas fuliginea.
 date: 2024-11-11
 ---
 
