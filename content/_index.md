@@ -11,7 +11,7 @@ sections:
         Li Liao
         Research Group
       image:
-        filename: /workspaces/LiLiaoLab/images/cover.jpg
+        filename: 
       text: |
         <br>
         
@@ -20,32 +20,37 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
+      - title: 👋 Welcome to the lab!
         content: Take a look at what we're working on...
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: welcome_to_the_group.jpg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Our researches ☕️
+        content: 'We care about life in the extreme conditions!'
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: our_research.png
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Our Projects
+          url: ../research/
+      - title: We are looking for kindred spirits!
+        content: 'Welcome to join us!'
         align: right
         background:
           image:
-            filename: cover.jpg
+            filename: welcome_to_join_us.jpg
             filters:
               brightness: 0.5
           position: center
@@ -53,7 +58,7 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
+          text: Contact Us
           url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
