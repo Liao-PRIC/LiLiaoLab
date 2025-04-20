@@ -2,7 +2,7 @@
 title: "Dynamic and intricate regulation by the Csr sRNAs in the Arctic Pseudoalteromonas fuliginea"
 
 authors:
-- <strong>Duan, Zedong</strong>
+- Duan, Zedong
 - Liao, Li
 - Lai, Tingyi
 - Yang, Ruyi
