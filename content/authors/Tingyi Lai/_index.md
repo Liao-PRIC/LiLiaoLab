@@ -10,7 +10,7 @@ last_name: Lai
 superuser: false
 
 # Role/position
-role: Ph. D. in Marine Biology
+role: Ph. D. Student
 
 # Organizations/Affiliations
 organizations:

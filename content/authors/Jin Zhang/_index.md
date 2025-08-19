@@ -1,37 +1,31 @@
 ---
 # Display name
-title: Zedong Duan
+title: Jin Zhang
 
 # Full Name (for SEO)
-first_name: Zedong
-last_name: Duan
+first_name: Jin
+last_name: Zhang
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Ph. D. Student
+role: Lab Manager
 
 # Organizations/Affiliations
 organizations:
-  - name: Shanghai Jiaotong University
+  - name: Polar Research Institute of China
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Arctic bacterium and their physiology such as sRNAs, T6SS
+bio: 
+
 interests:
-  - Arctic bacterium
-  - sRNAs
-  - T6SS
+
 
 education:
   courses:
-    - course: PhD student
-      institution: Shanghai Jiaotong University
-      year: 2023-present
-    - course: Master
-      institution: East China University of Science and Technology
-      year: 2020-2023
+
 
 
 # Social/Academic Networking
@@ -66,5 +60,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D. Students
+  - Lab Managers
 ---
+

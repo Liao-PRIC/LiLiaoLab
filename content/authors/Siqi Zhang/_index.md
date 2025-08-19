@@ -10,7 +10,7 @@ last_name: Zhang
 superuser: false
 
 # Role/position
-role: Master
+role: Master Student
 
 # Organizations/Affiliations
 organizations:

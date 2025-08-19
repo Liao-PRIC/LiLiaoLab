@@ -10,7 +10,7 @@ last_name: Jiang
 superuser: false
 
 # Role/position
-role: Ph. D. Students
+role: Ph. D. Student
 
 # Organizations/Affiliations
 organizations:
