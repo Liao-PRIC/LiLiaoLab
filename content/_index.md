@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **LiLiao Lab** is interested in various aspects of microorganisms living in Antarctic and the Arctic regions: including **bacterial sRNAs** and their regulation, **microbial diversity** and survival in extreme environments (e.g., in subglacial lakes, sea ice, sea water), as well as innovation of microbial cultivation and microbial resource exploration.
+        The **LiLiao Lab** is interested in various aspects of microorganisms living in Antarctic and the Arctic regions: including **bacterial sRNAs** and their regulation, **microbial diversity** and **survival strategies** in extreme environments (e.g., in subglacial lakes, sea ice, sea water), as well as innovation of microbial cultivation and microbial resource exploration.
   
   - block: slider
     content:
@@ -31,7 +31,7 @@ sections:
           position: right
           color: '#666'
       - title: Our researches ☕️
-        content: 'We care about life in the extreme conditions!'
+        content: 'We care about life in extreme conditions!'
         align: left
         background:
           image:
